@@ -1,5 +1,4 @@
 console.log("Portfolio website loaded!");
-console.log("Portfolio website loaded!");
 
 // Smooth scrolling for anchor links
 const links = document.querySelectorAll('a[href^="#"]');
@@ -36,4 +35,3 @@ function checkVisibility() {
 
 window.addEventListener("scroll", checkVisibility);
 checkVisibility(); // Check visibility on load
-
